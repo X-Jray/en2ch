@@ -1,6 +1,6 @@
 {
   "name": "en2ch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "英译汉(baidu fanyi), E-C, English-Chinese",
   "main": "index.js",
   "scripts": {
