@@ -1,7 +1,7 @@
 {
   "name": "en2ch",
   "version": "1.0.0",
-  "description": "英译汉(baidu fanyi), E-C, Englist-Chinese",
+  "description": "英译汉(baidu fanyi), E-C, English-Chinese",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
