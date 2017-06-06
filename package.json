@@ -1,0 +1,22 @@
+{
+  "name": "en2ch",
+  "version": "1.0.0",
+  "description": "英译汉(baidu fanyi), E-C, Englist-Chinese",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "英译汉",
+    "E-C",
+    "English-Chinese",
+    "baidu",
+    "fanyi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-Jray/en2ch.git"
+  },
+  "author": "jray",
+  "license": "MIT"
+}
