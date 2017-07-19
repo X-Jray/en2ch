@@ -1,5 +1,6 @@
 en2ch
 ===
+[ ![Travis CI Status](https://travis-ci.org/X-Jray/en2ch.svg?branch=master)](https://travis-ci.org/X-Jray/en2ch.svg?branch=master)
 
 Use baidu fanyi api, archieve English to Chinese translate. 
 
