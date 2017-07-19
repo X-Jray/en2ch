@@ -1,6 +1,7 @@
 en2ch
 ===
 [ ![Travis CI Status](https://travis-ci.org/X-Jray/en2ch.svg?branch=master)](https://travis-ci.org/X-Jray/en2ch.svg?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Use baidu fanyi api, archieve English to Chinese translate. 
 
