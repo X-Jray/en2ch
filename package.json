@@ -1,10 +1,13 @@
 {
   "name": "en2ch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "英译汉(baidu fanyi), E-C, English-Chinese",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "node test.js"
+    "build": "WEBPACK_ENV=build webpack",
+    "example": "node ./example/demo.js",
+    "test-cover": "istanbul cover _mocha",
+    "test": "mocha test/en2ch.test.js"
   },
   "keywords": [
     "英译汉",
@@ -13,10 +16,23 @@
     "baidu",
     "fanyi"
   ],
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/X-Jray/en2ch.git"
   },
   "author": "jray",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "webpack": "^3.3.0"
+  }
 }
