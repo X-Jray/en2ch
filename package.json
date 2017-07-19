@@ -6,8 +6,8 @@
   "scripts": {
     "build": "WEBPACK_ENV=build webpack",
     "example": "node ./example/demo.js",
-    "test-cover": "istanbul cover _mocha",
-    "test": "mocha test/en2ch.test.js"
+    "test-cover": "istanbul cover _mocha -- -t 5000",
+    "test": "mocha test/en2ch.test.js -t 5000"
   },
   "keywords": [
     "英译汉",
