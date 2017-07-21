@@ -1,6 +1,6 @@
 # en2ch
 
-Use baidu fanyi api, to archieve English text to Chinese text translation. 
+Use baidu fanyi api, to archieve English text to Chinese text translation. Thanks baidu fanyi~
 
 [ ![Travis CI Status](https://travis-ci.org/X-Jray/en2ch.svg?branch=master)](https://travis-ci.org/X-Jray/en2ch.svg?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)

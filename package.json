@@ -1,7 +1,7 @@
 {
   "name": "en2ch",
   "version": "1.0.4",
-  "description": "英译汉(baidu fanyi), E-C, English-Chinese",
+  "description": "翻译, 英译汉, 百度翻译, fanyi, translate, translator, (baidu translator), E-C, English-Chinese, English to Chinese",
   "main": "./src/index.js",
   "scripts": {
     "build": "WEBPACK_ENV=build webpack",
@@ -10,11 +10,14 @@
     "test": "mocha test/en2ch.test.js -t 5000"
   },
   "keywords": [
+    "翻译",
     "英译汉",
+    "百度翻译",
+    "translate",
     "E-C",
     "English-Chinese",
-    "baidu",
     "fanyi"
+    "English to Chinese"
   ],
   "files": [
     "lib"
