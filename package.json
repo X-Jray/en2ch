@@ -1,6 +1,6 @@
 {
   "name": "en2ch",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "翻译, 英译汉, 百度翻译, fanyi, translate, translator, (baidu translator), E-C, English-Chinese, English to Chinese",
   "main": "./src/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "translate",
     "E-C",
     "English-Chinese",
-    "fanyi"
+    "fanyi",
     "English to Chinese"
   ],
   "files": [
