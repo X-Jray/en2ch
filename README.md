@@ -18,8 +18,7 @@ npm i en2ch --save
 const en2ch = require('en2ch');
 
 en2ch('hello world').then(ret => {
-    // 你好世界
-    console.log(ret);
+    console.log(ret); // "你好世界"
 }).catch(err => {
     console.log(err.message);
 });
@@ -30,6 +29,8 @@ en2ch('hello world').then(ret => {
 ```
 npm run example
 ```
+![en2ch demo](example/demo.png)
+
 
 ## Test
 
