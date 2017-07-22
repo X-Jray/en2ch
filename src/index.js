@@ -6,20 +6,22 @@
 const http = require('http');
 const querystring = require('querystring');
 
+const conf = require('./conf');
+
 function requestAPI(query) {
 
     let postStringData = querystring.stringify({
-        from: 'en',
-        to: 'zh',
+        from: conf.from,
+        to: conf.to,
         query
     });
 
     return new Promise((resolve, reject) => {
         let requset = http.request({
-            host: 'fanyi.baidu.com',
-            port: 80,
-            path: '/v2transapi',
-            method: 'POST',
+            host: conf.host,
+            port: conf.port,
+            path: conf.path,
+            method: conf.method,
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
                 'Content-Length': postStringData.length
@@ -60,4 +62,3 @@ module.exports = function (enText) {
 
     return requestAPI(enText);
 };
-
